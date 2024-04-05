@@ -19,6 +19,7 @@ const StudentForm = ({ onSubmit }) => {
       <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
       <input type="tel" placeholder="Phone" value={phone} onChange={(e) => setPhone(e.target.value)} />
       <button type="submit">Submit</button>
+      <button type="button">Test  Button</button>
     </form>
   );
 };
